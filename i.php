@@ -25,13 +25,13 @@ print_r($emprestimo);
 echo "</pre>";
 
 /*
-tiago h e lucas m -> 
+tiago h e lucas m -> academia 
 gustavo e elias-+ -> bar
-gabriel e erika ->
-alexandre e Belziran
+gabriel e erika -> Pizzaria
+alexandre e Belziran -> Farmacia
 Marcos Paulo e Talisson-+ -> supermercado
 Kawan+ e Mateus -> Imobiliaria
-cristiam e vinicius
+cristiam e vinicius - Hamburgueria
 Maria Vitoria+ e Andressa Fernandes+-> biblioca;
 Felipe e kaue+ -> locadora de veiculos;
 Nadila Tamires e Yasmim -> salão de beleza;
