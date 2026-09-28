@@ -1,5 +1,7 @@
 <?php
 namespace App;
+
+use PDO;
 class Item{
     public $id;
     public $nome;
@@ -16,6 +18,13 @@ class Item{
         return true;        
     } 
     public function excluir(){
+        return (new DataBase ('item'))->delete('id='.$this->id);
 
     }
+    public static function listar($where = null, $order = null, $limit = null){
+        return (new DataBase('item'))->select()->fetchAll(PDO::FETCH_CLASS, self::class);
+    }
+    
 }
+$i =new Item();
+$i->listar();
